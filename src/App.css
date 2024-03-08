@@ -1,0 +1,45 @@
+body {
+  font-family: "roboto";
+  background-color: rgb(77, 75, 75);
+}
+
+h2 {
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 60%;
+  transform: translateX(-50%);
+  width: 40%;
+}
+p {
+  color: white;
+  font-size: 4em;
+  font-family: "roboto";
+  font-weight: 800;
+}
+.stopwatch {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.start-btn {
+  border-radius: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 15px 32px;
+}
+.start-btn:hover {
+  cursor: pointer;
+  background-color: #a0f539;
+}
+.pause-btn {
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 15px 32px;
+}
+.pause-btn:hover {
+  cursor: pointer;
+  background-color: #a0f539;
+}
